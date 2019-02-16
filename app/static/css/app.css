@@ -1,3 +1,60 @@
 body {
     padding-top: 5rem;
 }
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*width: 150px;*/
+}
+
+.required{
+    color: rgb(226, 47, 47);
+}
+
+.note, .label{
+    height: 24px;;
+    margin-bottom: 6px;
+}
+
+.section, .form{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 10px;
+}
+.section{
+    margin-bottom: 30px;
+}
+
+input[type='submit']{
+    padding: 10px 0px;
+    text-align: center;
+    margin-right: 1000px;
+    border-radius: 5px;
+    background-color: rgb(133, 133, 236);
+    color: white;
+}
+
+input[type='text']{
+    width: 410px;
+    height: 40px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+textarea{
+    width: 510px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.flash{
+    color: rgb(226, 47, 47);
+    font-style: italic;
+    font-size: 20px;
+}
+.hr{
+    border-color: black;
+}
